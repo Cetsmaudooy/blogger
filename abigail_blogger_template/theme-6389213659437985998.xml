@@ -4049,8 +4049,8 @@ if(typeof(georgialou_class) != 'undefined' && georgialou_class !== null) {
       <b:section class='tabs' id='crosscol' showaddelement='yes'>
         <b:widget id='PageList1' locked='true' mobile='yes' title='Pages' type='PageList' version='1'>
           <b:widget-settings>
-            <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://sandelions.blogspot.com/', 'title': 'Home', 'position': 0}, '8912474671506411338': {'href': 'https://cycner.blogspot.com/p/index.html', 'title': 'Index', 'position': 1}, '663550613904065370': {'href': 'https://cycner.blogspot.com/p/blog-page.html', 'title': 'BIM works', 'position': 2}, 'link0': {'href': 'http://', 'title': '_rhino', 'position': 3}, 'link1': {'href': 'http://', 'title': '_archicad', 'position': 4}, 'link2': {'href': 'http://', 'title': '_Grasshopper', 'position': 5}}]]></b:widget-setting>
-            <b:widget-setting name='homeTitle'>Home</b:widget-setting>
+            <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://sandelions.blogspot.com/', 'title': 'BlOG', 'position': 0}, 'link0': {'href': 'http://', 'title': 'WORKS', 'position': 1}, 'link1': {'href': 'http://', 'title': '_rhino', 'position': 2}, 'link2': {'href': 'http://', 'title': '_archicad', 'position': 3}, 'link3': {'href': 'http://', 'title': '_Grasshopper', 'position': 4}, 'link4': {'href': 'http://', 'title': 'PRACTICE', 'position': 5}, 'link5': {'href': 'http://', 'title': 'SERVICES', 'position': 6}, 'link6': {'href': 'http://', 'title': 'CONTECT', 'position': 7}, '8912474671506411338': {'href': 'https://sandelions.blogspot.com/p/index.html', 'title': 'Index', 'position': 8}}]]></b:widget-setting>
+            <b:widget-setting name='homeTitle'>BlOG</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
 					<div class='widget-content'>
@@ -4409,6 +4409,7 @@ if(typeof(georgialou_class) != 'undefined' && georgialou_class !== null) {
   </b:section>
 </div>
 <!-- End Promo Grid -->
+
 
   <b:section class='shop-my container' id='shop-my' showaddelement='yes'>
     <b:widget id='HTML393' locked='false' mobile='yes' title='Shop My Wardrobe' type='HTML' version='1'>
@@ -5843,8 +5844,8 @@ jQuery('.georgialou_grid_title h2').succinct({size: 60});
           <b:widget-setting name='content'>&lt;!-- Footer Widget / 9 --&gt;
 &lt;div id=&#39;pipdigemZeplin_325398838&#39;&gt;&lt;/div&gt;
 &lt;script&gt;var e=new pipdigem({get:&#39;user&#39;,
-userId:2091248870,
-accessToken:&#39;2091248870.1677ed0.59e695b6eca14663a37e08a3b918dc0a&#39;,
+userId:12100266498,
+accessToken:&#39;12100266498.1677ed0.ce5d49c21ec24e09aaf54a39f2c3ad4c&#39;,
 limit:9,
 resolution:&#39;low_resolution&#39;,target:&#39;pipdigemZeplin_325398838&#39;,template:&#39;&lt;li&gt;&lt;a href=&quot;{{link}}&quot; target=&quot;_blank&quot; style=&quot;background-size:cover;background-repeat:no-repeat;background-position:center;background-image:url({{image}});display:block;&quot;&gt;&lt;img src=&quot;data:image/png;base64,&#39;+&#39;iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0AQMAAADx&#39;+&#39;GE3JAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAADVJREFUeNrtwTEBAAAAwiD7p/ZZDG&#39;+&#39;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#39;+&#39;OX0AAAEidG8r&#39;+&#39;AAAAA&#39;+&#39;ElFTkSuQmCC&quot; alt=&quot;&quot; /&gt;&lt;div class=&quot;insta-likes&quot;&gt;&lt;div style=&quot;display: table; vertical-align: middle; height: 100%; width: 100%;&quot;&gt;&lt;span style=&quot;display: table-cell; vertical-align: middle; height: 100%; width: 100%;&quot;&gt;{{likes}} &lt;i class=&quot;fa fa-heart&quot;&gt;&lt;/i&gt;&lt;br/&gt;{{comments}} &lt;i class=&quot;fa fa-comment&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;/li&gt;&#39;});e.run();&lt;/script&gt;&lt;style&gt;#pipdigemZeplin_325398838{width:100%;display:block;margin:0;padding:0;line-height:0}#pipdigemZeplin_325398838 img{height:auto;width:100%}#pipdigemZeplin_325398838 a{padding:0;margin:0;display:inline-block;position:relative}#pipdigemZeplin_325398838 li{width:12.5%;display:inline-block;margin:0 0!important;padding:0!important;border:0}#pipdigemZeplin_325398838 li:nth-child(odd){margin-right:0 !important}#pipdigemZeplin_325398838 li:nth-child(even){margin-left:0!important}#pipdigemZeplin_325398838 .insta-likes{width:100%;height:100%;margin-top:-100%;opacity:0;text-align:center;letter-spacing:1px;background:rgba(255,255,255,0.42);position:absolute;text-shadow:2px 2px 8px #666;font:normal 400 10px Montserrat,Arial,sans-serif;color:#222;line-height:normal;transition:all .25s ease-out;-o-transition:all .25s ease-out;-moz-transition:all .25s ease-out;-webkit-transition:all .25s ease-out}#pipdigemZeplin_325398838 .insta-likes .fa{font-size:10px}#pipdigemZeplin_325398838 a:hover .insta-likes{opacity:1}&lt;/style&gt;</b:widget-setting>
         </b:widget-settings>
@@ -6182,7 +6183,7 @@ $('.navdiv').slicknav({
   </div>
 </b:includable>
   </b:widget>
-  <b:widget id='Attribution1' locked='false' title='' type='Attribution' version='1'>
+  <b:widget id='Attribution1' locked='false' title='' type='Attribution'>
     <b:widget-settings>
       <b:widget-setting name='copyright'/>
     </b:widget-settings>
@@ -6458,32 +6459,6 @@ head.appendChild(script);
 <div class='clr'/>
 </b:includable>
   </b:widget>
-  <b:widget id='HTML102' locked='false' title='Pinterest Hover Button' type='HTML' version='1'>
-    <b:widget-settings>
-      <b:widget-setting name='content'>&lt;script async defer src=&quot;//assets.pinterest.com/js/pinit.js&quot;&gt;&lt;/script&gt;
-&lt;a data-pin-do=&quot;embedUser&quot; data-pin-board-width=&quot;400&quot; data-pin-scale-height=&quot;240&quot; data-pin-scale-width=&quot;80&quot; href=&quot;https://www.pinterest.com/cetsmaudooy/blogger/&quot;&gt;&lt;/a&gt;</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-<!-- PIN IT HOVER BUTTON START -->
-<script>
-//<![CDATA[
-var bs_pinButtonURL = "https://4.bp.blogspot.com/-wsamM1TNizE/WXuABWhLwdI/AAAAAAAAAkA/ts6syYFQ_Lsfh3zN-gPiK4toThHaIxXPwCLcBGAs/s320/pin-it.png";
-var bs_pinButtonPos = "topleft";
-var bs_pinPrefix = "";
-var bs_pinSuffix = "";
-//]]>
-</script>
-<script id='bs_pinOnHover' type='text/javascript'>
-//<![CDATA[
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('1i(1j).1k(q($){$(\'M\').1l(\'<6 9="r:D;" N="A" O="\'+11+\'" >\');$(\'#12\').1m();3 l;3 m;3 n;$(\'.A\').1n(q(){m=$(\'.A\').E(F);n=$(\'.A\').G(F);$(\'.A\').1o()});3 o=$(\'#12\').1p().1q("1r.13");o!=-1&&14();q 14(){$(\'.s-15 6,.H-M 6,.s-16 6\').1s(\'.17,.17 6\').1t(q(){$(\'.7-8\').t("r","D");18(l);3 a=$(p);3 b=19(a.t("P-u"));3 c=19(a.t("P-v"));3 d;3 e;1u(1v){B\'1w\':d=a.4().u+a.G(F)/2-n/2;e=a.4().v+a.E(F)/2-m/2;C;B\'1x\':d=a.4().u+b+5;e=a.4().v+c+a.E()-m-5;C;B\'1y\':d=a.4().u+b+5;e=a.4().v+c+5;C;B\'1z\':d=a.4().u+b+a.G()-n-5;e=a.4().v+c+a.E()-m-5;C;B\'1A\':d=a.4().u+b+a.G()-n-5;e=a.4().v+c+5;C}3 f=a.1B(\'O\');3 g=a.1C(\'.H,.1D,.s\').Q(\'.H-R,.s-R,.s-1E\');3 h=g.1F();w(S T===\'U\'){T=\'\'}w(S V===\'U\'){V=\'\'}w(g.Q(\'a\').1G){W=g.Q(\'a\').I(\'X\').1a(/\\#.+\\b/1b,"")}Y{W=$(1H).I(\'X\').1a(/\\#.+\\b/1b,"")}3 i=\'<1c N="7-8" 9="1d:x;4: 1I;z-1J: 1K; 1L: 1M;" ><a X="1N://1O.13/1P/1Q/1R/?1S=\'+W+\'&1T=\'+f+\'&1U=\'+T+h+V+\'" 9="1d:1V;1W:x;" 1X="1Y"><6 N="1Z" 9="-20-J-K:x;-21-J-K:x;-o-J-K:x;J-K:x;22:23;P: 0;24: 0;25:0;" O="\'+11+\'" R="26 1e 27" ></a></1c>\';3 j=a.Z().28(\'a\')?a.Z():a;w(!j.y().29(\'7-8\')){j.2a(i);w(S l===\'U\'){j.y(\'.7-8\').I("1f","p.9.1g=1;p.9.r=\'10\'")}Y{j.y(\'.7-8\').I("1f","p.9.1g=1;p.9.r=\'10\';18(2b)")}}3 k=j.y(".7-8");k.t({"u":d,"v":e});k.t("r","10");k.L().1h(2c,1.0,q(){$(p).2d()})});$(\'.s-15 6,.H-M 6,.s-16 6\').1e(\'2e\',q(){w($.2f.2g){3 a=$(p).y(\'.7-8\');3 b=$(p).Z(\'a\').y(\'.7-8\');l=2h(q(){a.L().t("r","D");b.L().t("r","D")},2i)}Y{$(\'.7-8\').L().1h(0,0.0)}})}});',62,143,'|||var|position||img|pinit|wrapper|style||||||||||||||||this|function|visibility|entry|css|top|left|if|none|next||pinimgload|case|break|hidden|outerWidth|true|outerHeight|post|attr|box|shadow|stop|body|class|src|margin|find|title|typeof|bs_pinPrefix|undefined|bs_pinSuffix|pinitURL|href|else|parent|visible|bs_pinButtonURL|bs_pinOnHover|com|hoverCheck|content|summary|nopin|clearTimeout|parseInt|replace|gi|div|display|on|onmouseover|opacity|fadeTo|jQuery|document|ready|append|hide|load|remove|html|indexOf|bloggersentral|not|mouseenter|switch|bs_pinButtonPos|center|topright|topleft|bottomright|bottomleft|prop|closest|hentry|header|text|length|location|absolute|index|996|cursor|pointer|http|pinterest|pin|create|button|url|media|description|block|outline|target|_blank|pinimg|moz|webkit|background|transparent|padding|border|Pin|Pinterest|is|hasClass|after|bsButtonHover|300|show|mouseleave|browser|msie|setTimeout|3000'.split('|'),0,{}))
-//]]>
-// This Pinterest Hover Button is brought to you by bloggersentral.com.
-// Visit http://www.bloggersentral.com/2012/11/pinterest-pin-it-button-on-image-hover.html for details.
-// Feel free to use and share, but please keep this notice intact.
-</script>
-<!-- PINT IT HOVER BUTTON END -->
-</b:includable>
-  </b:widget>
   <b:widget id='HTML282' locked='false' mobile='yes' title='Related Posts' type='HTML' version='1'>
     <b:widget-settings>
       <b:widget-setting name='content'/>
@@ -6527,7 +6502,7 @@ var labels=[],label,alternateLabel,minposts=minimum-1;if(1===postLabels.length)l
 </b:section-contents><b:section-contents id='footer-2-1'>
   <b:widget id='HTML4' locked='false' title='Maps' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<iframe src="https://www.google.com/maps/embed?pb=" width="360" height="200" frameborder="0" style="element:labels%7Cvisibility:off&style=feature:administrative.land_parcel%7Cvisibility:off&style=feature:administrative.neighborhood%7Cvisibility:off" allowfullscreen></iframe>]]></b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<iframe src="https://www.google.com/maps/embed?pb=" width="320" height="200" frameborder="0" style="element:labels%7Cvisibility:off&style=feature:administrative.land_parcel%7Cvisibility:off&style=feature:administrative.neighborhood%7Cvisibility:off" allowfullscreen></iframe>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -6544,7 +6519,7 @@ var labels=[],label,alternateLabel,minposts=minimum-1;if(1===postLabels.length)l
 </b:section-contents><b:section-contents id='footer-2-2'>
   <b:widget id='Label2' locked='false' title='Labels' type='Label'>
     <b:widget-settings>
-      <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+      <b:widget-setting name='sorting'>FREQUENCY</b:widget-setting>
       <b:widget-setting name='display'>CLOUD</b:widget-setting>
       <b:widget-setting name='selectedLabelsList'/>
       <b:widget-setting name='showType'>ALL</b:widget-setting>
