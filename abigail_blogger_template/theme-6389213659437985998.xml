@@ -278,6 +278,9 @@ Social Media Widget icons
 .facom:before {content:"\f0e5"}
 .fasnap:before {content:"\f2ac"}
 .faetsy:before {content:"\f2d7"}
+.github:before {content:"\f09b"}
+
+
 
 /* General 
 ------------------------------------------*/
@@ -3875,7 +3878,7 @@ html .mobile-index-contents .post-body {font-size: 90%;}
 
 
 
-<script src='//cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/20140415/jquery.cycle2.min.js' type='text/javascript'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/20140415/jquery.cycle2.min.js' type='text/javascript'/>
 <script>
 /*<![CDATA[*/
 /* Plugin for Cycle2; Copyright (c) 2012 M. Alsup; v20141007 */
@@ -3942,6 +3945,8 @@ $('#LinkList101 a[href*="mailto:"]').addClass("fa faen");
 $('#LinkList101 a[href*="shop"]').addClass("fa fashop");
 $('#LinkList101 a[href*="Store"]').addClass("fa fashop");
 $('#LinkList101 a[href*="snapchat"]').addClass("fa fasnap");
+$('#LinkList101 a[href*="github"]').addClass("fa github");
+
 $('#LinkList102 a[href*="behance.net"]').addClass("fa fabe");
 $('#LinkList102 a[href*="facebook.com"]').addClass("fa fafa");
 $('#LinkList102 a[href*="twitter.com"]').addClass("fa fatw");
@@ -3972,6 +3977,8 @@ $('#LinkList102 a[href*="mailto:"]').addClass("fa faen");
 $('#LinkList102 a[href*="shop"]').addClass("fa fashop");
 $('#LinkList102 a[href*="Store"]').addClass("fa fashop");
 $('#LinkList102 a[href*="snapchat"]').addClass("fa fasnap");
+$('#LinkList102 a[href*="github"]').addClass("fa github");
+
 $('#LinkList103 a[href*="behance.net"]').addClass("fa fabe");
 $('#LinkList103 a[href*="facebook.com"]').addClass("fa fafa");
 $('#LinkList103 a[href*="twitter.com"]').addClass("fa fatw");
@@ -4002,6 +4009,8 @@ $('#LinkList103 a[href*="mailto:"]').addClass("fa faen");
 $('#LinkList103 a[href*="shop"]').addClass("fa fashop");
 $('#LinkList103 a[href*="Store"]').addClass("fa fashop");
 $('#LinkList103 a[href*="snapchat"]').addClass("fa fasnap");
+$('#LinkList103 a[href*="github"]').addClass("fa github");
+
 $('#LinkList104 a[href*="behance.net"]').addClass("fa fabe");
 $('#LinkList104 a[href*="facebook.com"]').addClass("fa fafa");
 $('#LinkList104 a[href*="twitter.com"]').addClass("fa fatw");
@@ -4032,6 +4041,10 @@ $('#LinkList104 a[href*="mailto:"]').addClass("fa faen");
 $('#LinkList104 a[href*="shop"]').addClass("fa fashop");
 $('#LinkList104 a[href*="Store"]').addClass("fa fashop");
 $('#LinkList104 a[href*="snapchat"]').addClass("fa fasnap");
+
+$('#LinkList104 a[href*="github"]').addClass("fa github");
+
+
 
 $("#nav li a").wrapInner('<span>');
 });
@@ -4252,8 +4265,10 @@ if(typeof(georgialou_class) != 'undefined' && georgialou_class !== null) {
         <b:widget id='LinkList101' locked='false' title='Topbar Social Icons' type='LinkList' version='1'>
           <b:widget-settings>
             <b:widget-setting name='sorting'>NONE</b:widget-setting>
-            <b:widget-setting name='text-0'>facebook</b:widget-setting>
-            <b:widget-setting name='link-0'>https://www.facebook.com/</b:widget-setting>
+            <b:widget-setting name='text-1'>facebook</b:widget-setting>
+            <b:widget-setting name='link-1'>https://www.facebook.com/</b:widget-setting>
+            <b:widget-setting name='text-0'>Github</b:widget-setting>
+            <b:widget-setting name='link-0'>https://github.com/Cetsmaudooy</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
 			<b:if cond='data:title'><h2><data:title/></h2></b:if>
@@ -4417,10 +4432,10 @@ if(typeof(georgialou_class) != 'undefined' && georgialou_class !== null) {
 	</b:if>
 </b:includable>
           <b:includable id='title'>
-  <b:if cond='data:blog.url == data:blog.homepageUrl'>
+  <b:if cond='data:blog.url == index'>
     <data:title/>
   <b:else/>
-    <a expr:href='data:blog.homepageUrl'><data:title/></a>
+    <a expr:href='data:blog.index'><data:title/></a>
   </b:if>
 </b:includable>
         </b:widget>
@@ -6580,8 +6595,10 @@ head.appendChild(script);
   <b:widget id='LinkList104' locked='false' title='Floating Social Icons' type='LinkList' version='1'>
     <b:widget-settings>
       <b:widget-setting name='sorting'>NONE</b:widget-setting>
-      <b:widget-setting name='text-0'>facebook</b:widget-setting>
-      <b:widget-setting name='link-0'>https://www.facebook.com/</b:widget-setting>
+      <b:widget-setting name='text-1'>facebook</b:widget-setting>
+      <b:widget-setting name='link-1'>https://www.facebook.com/</b:widget-setting>
+      <b:widget-setting name='text-0'>Github</b:widget-setting>
+      <b:widget-setting name='link-0'>https://github.com/Cetsmaudooy</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
 <b:if cond='data:title'><h2><data:title/></h2></b:if>
