@@ -251,7 +251,6 @@ Social Media Widget icons
 *******************************/
 .fabe:before {content:"\f1b4"}
 .fafa:before {content:"\f09a"}
-.fatw:before {content:"\f099"}
 .fahe:before {content:"\f004"}
 .fadr:before {content:"\f17d"}
 .fafl:before {content:"\f16e"}
@@ -278,7 +277,10 @@ Social Media Widget icons
 .facom:before {content:"\f0e5"}
 .fasnap:before {content:"\f2ac"}
 .faetsy:before {content:"\f2d7"}
-.github:before {content:"\f09b"}
+.fatw:before {content:"\f099"}
+.fagi:before {content:"\f09b"}
+.fatr:before {content:"\f181"}
+
 
 
 
@@ -3917,7 +3919,6 @@ html .mobile-index-contents .post-body {font-size: 90%;}
 $(function(){
 $('#LinkList101 a[href*="behance.net"]').addClass("fa fabe");
 $('#LinkList101 a[href*="facebook.com"]').addClass("fa fafa");
-$('#LinkList101 a[href*="twitter.com"]').addClass("fa fatw");
 $('#LinkList101 a[href*="bloglovin.com"]').addClass("fa fahe");
 $('#LinkList101 a[href*="dribbble.com"]').addClass("fa fadr");
 $('#LinkList101 a[href*="flickr.com"]').addClass("fa fafl");
@@ -3926,7 +3927,6 @@ $('#LinkList101 a[href*="instagram.com"]').addClass("fa fain");
 $('#LinkList101 a[href*="linkedin.com"]').addClass("fa fali");
 $('#LinkList101 a[href*="pinterest.com"]').addClass("fa fapi");
 $('#LinkList101 a[href*="vimeo.com"]').addClass("fa favi");
-$('#LinkList101 a[href*="youtube.com"]').addClass("fa fayo");
 $('#LinkList101 a[href*="vine.co"]').addClass("fa favi2");
 $('#LinkList101 a[href*="soundcloud.com"]').addClass("fa faso");
 $('#LinkList101 a[href*="goodreads.com"]').addClass("fa fabo");
@@ -3945,11 +3945,14 @@ $('#LinkList101 a[href*="mailto:"]').addClass("fa faen");
 $('#LinkList101 a[href*="shop"]').addClass("fa fashop");
 $('#LinkList101 a[href*="Store"]').addClass("fa fashop");
 $('#LinkList101 a[href*="snapchat"]').addClass("fa fasnap");
-$('#LinkList101 a[href*="github"]').addClass("fa github");
+$('#LinkList101 a[href*="github"]').addClass("fa fagi");
+$('#LinkList101 a[href*="twitter.com"]').addClass("fa fatw");
+$('#LinkList101 a[href*="trello.com"]').addClass("fa fatr");
+$('#LinkList101 a[href*="youtube.com"]').addClass("fa fayo");
+
 
 $('#LinkList102 a[href*="behance.net"]').addClass("fa fabe");
 $('#LinkList102 a[href*="facebook.com"]').addClass("fa fafa");
-$('#LinkList102 a[href*="twitter.com"]').addClass("fa fatw");
 $('#LinkList102 a[href*="bloglovin.com"]').addClass("fa fahe");
 $('#LinkList102 a[href*="dribbble.com"]').addClass("fa fadr");
 $('#LinkList102 a[href*="flickr.com"]').addClass("fa fafl");
@@ -3958,7 +3961,6 @@ $('#LinkList102 a[href*="instagram.com"]').addClass("fa fain");
 $('#LinkList102 a[href*="linkedin.com"]').addClass("fa fali");
 $('#LinkList102 a[href*="pinterest.com"]').addClass("fa fapi");
 $('#LinkList102 a[href*="vimeo.com"]').addClass("fa favi");
-$('#LinkList102 a[href*="youtube.com"]').addClass("fa fayo");
 $('#LinkList102 a[href*="vine.co"]').addClass("fa favi2");
 $('#LinkList102 a[href*="soundcloud.com"]').addClass("fa faso");
 $('#LinkList102 a[href*="goodreads.com"]').addClass("fa fabo");
@@ -3977,11 +3979,13 @@ $('#LinkList102 a[href*="mailto:"]').addClass("fa faen");
 $('#LinkList102 a[href*="shop"]').addClass("fa fashop");
 $('#LinkList102 a[href*="Store"]').addClass("fa fashop");
 $('#LinkList102 a[href*="snapchat"]').addClass("fa fasnap");
-$('#LinkList102 a[href*="github"]').addClass("fa github");
+$('#LinkList102 a[href*="github"]').addClass("fa fagi");
+$('#LinkList102 a[href*="twitter.com"]').addClass("fa fatw");
+$('#LinkList102 a[href*="trello.com"]').addClass("fa fatr");
+$('#LinkList102 a[href*="youtube.com"]').addClass("fa fayo");
 
 $('#LinkList103 a[href*="behance.net"]').addClass("fa fabe");
 $('#LinkList103 a[href*="facebook.com"]').addClass("fa fafa");
-$('#LinkList103 a[href*="twitter.com"]').addClass("fa fatw");
 $('#LinkList103 a[href*="bloglovin.com"]').addClass("fa fahe");
 $('#LinkList103 a[href*="dribbble.com"]').addClass("fa fadr");
 $('#LinkList103 a[href*="flickr.com"]').addClass("fa fafl");
@@ -3990,7 +3994,6 @@ $('#LinkList103 a[href*="instagram.com"]').addClass("fa fain");
 $('#LinkList103 a[href*="linkedin.com"]').addClass("fa fali");
 $('#LinkList103 a[href*="pinterest.com"]').addClass("fa fapi");
 $('#LinkList103 a[href*="vimeo.com"]').addClass("fa favi");
-$('#LinkList103 a[href*="youtube.com"]').addClass("fa fayo");
 $('#LinkList103 a[href*="vine.co"]').addClass("fa favi2");
 $('#LinkList103 a[href*="soundcloud.com"]').addClass("fa faso");
 $('#LinkList103 a[href*="goodreads.com"]').addClass("fa fabo");
@@ -4009,11 +4012,13 @@ $('#LinkList103 a[href*="mailto:"]').addClass("fa faen");
 $('#LinkList103 a[href*="shop"]').addClass("fa fashop");
 $('#LinkList103 a[href*="Store"]').addClass("fa fashop");
 $('#LinkList103 a[href*="snapchat"]').addClass("fa fasnap");
-$('#LinkList103 a[href*="github"]').addClass("fa github");
+$('#LinkList103 a[href*="github"]').addClass("fa fagi");
+$('#LinkList103 a[href*="twitter.com"]').addClass("fa fatw");
+$('#LinkList103 a[href*="trello.com"]').addClass("fa fatr");
+$('#LinkList103 a[href*="youtube.com"]').addClass("fa fayo");
 
 $('#LinkList104 a[href*="behance.net"]').addClass("fa fabe");
 $('#LinkList104 a[href*="facebook.com"]').addClass("fa fafa");
-$('#LinkList104 a[href*="twitter.com"]').addClass("fa fatw");
 $('#LinkList104 a[href*="bloglovin.com"]').addClass("fa fahe");
 $('#LinkList104 a[href*="dribbble.com"]').addClass("fa fadr");
 $('#LinkList104 a[href*="flickr.com"]').addClass("fa fafl");
@@ -4022,7 +4027,6 @@ $('#LinkList104 a[href*="instagram.com"]').addClass("fa fain");
 $('#LinkList104 a[href*="linkedin.com"]').addClass("fa fali");
 $('#LinkList104 a[href*="pinterest.com"]').addClass("fa fapi");
 $('#LinkList104 a[href*="vimeo.com"]').addClass("fa favi");
-$('#LinkList104 a[href*="youtube.com"]').addClass("fa fayo");
 $('#LinkList104 a[href*="vine.co"]').addClass("fa favi2");
 $('#LinkList104 a[href*="soundcloud.com"]').addClass("fa faso");
 $('#LinkList104 a[href*="goodreads.com"]').addClass("fa fabo");
@@ -4041,8 +4045,10 @@ $('#LinkList104 a[href*="mailto:"]').addClass("fa faen");
 $('#LinkList104 a[href*="shop"]').addClass("fa fashop");
 $('#LinkList104 a[href*="Store"]').addClass("fa fashop");
 $('#LinkList104 a[href*="snapchat"]').addClass("fa fasnap");
-
-$('#LinkList104 a[href*="github"]').addClass("fa github");
+$('#LinkList104 a[href*="github"]').addClass("fa fagi");
+$('#LinkList104 a[href*="twitter.com"]').addClass("fa fatw");
+$('#LinkList104 a[href*="trello.com"]').addClass("fa fatr");
+$('#LinkList104 a[href*="youtube.com"]').addClass("fa fayo");
 
 
 
