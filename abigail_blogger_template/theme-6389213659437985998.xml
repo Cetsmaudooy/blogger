@@ -75,14 +75,14 @@ License: Copyright July 2017. All rights reserved.
 <Variable name="body.background" description="Body Background" type="background" color="$(body.background.color)" default="$(color) none repeat scroll top left" value="$(color) none repeat scroll top left"/>
 
 <Group description="Background Color" selector="">
-<Variable name="body.background.color" description="Outer Background Color" type="color" default="#ffeff0" value="#ffeff0"/>
+<Variable name="body.background.color" description="Outer Background Color" type="color" default="#f0f0f0" value="#f0f0f0"/>
 <Variable name="inner.background.color" description="Inner Background Color" type="color" default="#ffffff" value="#ffffff"/>
 </Group>
 
 <Group description="Simple Color Scheme" selector="">
 <Variable name="accent.color" description="Accent Color 1" type="color" default="#222222" value="#222222"/>
 <Variable name="accent.color.2" description="Accent Color 2" type="color" default="#e9b0b4" value="#e9b0b4"/>
-<Variable name="accent.color.3" description="Accent Color 3" type="color" default="#ffeff0" value="#ffeff0"/>
+<Variable name="accent.color.3" description="Accent Color 3" type="color" default="#f0f0f0" value="#f0f0f0"/>
 </Group>
 
 <Group description="Page Text" selector="">
@@ -410,6 +410,16 @@ h5,
 h6 {
 	text-transform: uppercase;
 }
+
+/* 20190917 */
+
+h2.title
+{
+	border-bottom: none;
+}
+
+/* update
+----------------------------------------------- */
 
 /* Post Headings */
 .post-body h2, 
@@ -1705,6 +1715,7 @@ opacity: .8;
 	padding: 18px 0 12px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	border-bottom: none;
 }
 .georgialou_grid_title h2:hover {
 	color: $(homepage.post.title.color.hover);
@@ -1888,6 +1899,14 @@ text-align:center;
 line-height: 1.2;
 letter-spacing: 1px;
 text-transform: uppercase;
+
+/* 20190917 */
+
+border-bottom: none;
+
+/* update
+----------------------------------------------- */
+
 }
 .post-title a{
 text-decoration:none;
@@ -2015,7 +2034,7 @@ img.pinimg {
 }
 
 .section-columns td.columns-cell {
-border-left: 0;
+border: none !important;   /* 20190918 update */
 }
 .blog-pager-older-link, .home-link, .blog-pager-newer-link {
 background: $(inner.background.color);
@@ -2520,6 +2539,7 @@ padding-left:1.5em;
 
 /* Follow by Email 
 -----------------------------------------*/
+
 .FollowByEmail {
 }
 
@@ -2529,6 +2549,7 @@ padding-left:1.5em;
 .FollowByEmail td {
   width: 100% !important;
   display: block;
+  border: none !important;   /* 20190918 update */
 }
 .FollowByEmail .follow-by-email-inner .follow-by-email-submit,
 .follow-by-email-submit{
@@ -2633,6 +2654,11 @@ border: 4px solid #fff;
 /* Search Widget 
 -------------------------------------------------*/
 td.gsc-input {
+border: none;
+}
+
+td.gsc-search-button {
+border: none;
 }
 
 input.gsc-input { 
@@ -4206,8 +4232,8 @@ if(typeof(georgialou_class) != 'undefined' && georgialou_class !== null) {
       <b:section class='tabs' id='crosscol' showaddelement='yes'>
         <b:widget id='PageList1' locked='true' mobile='yes' title='Pages' type='PageList' version='1'>
           <b:widget-settings>
-            <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://sandelions.blogspot.com/', 'title': 'BlOG', 'position': 0}, 'link0': {'href': 'http://', 'title': 'WORKS', 'position': 1}, 'link1': {'href': 'http://', 'title': '_rhino', 'position': 2}, 'link2': {'href': 'http://', 'title': '_archicad', 'position': 3}, 'link3': {'href': 'http://', 'title': '_Grasshopper', 'position': 4}, 'link4': {'href': 'http://', 'title': 'PRACTICE', 'position': 5}, 'link5': {'href': 'http://', 'title': 'SERVICES', 'position': 6}, 'link6': {'href': 'http://', 'title': 'CONTECT', 'position': 7}, '8912474671506411338': {'href': 'https://sandelions.blogspot.com/p/index.html', 'title': 'Index', 'position': 8}}]]></b:widget-setting>
-            <b:widget-setting name='homeTitle'>BlOG</b:widget-setting>
+            <b:widget-setting name='pageListJson'><![CDATA[{'link0': {'href': 'https://sandelions.blogspot.com/search/label/', 'title': 'Blog', 'position': 0}, 'link1': {'href': 'http://', 'title': 'WORKS', 'position': 1}, 'link2': {'href': 'https://sandelions.blogspot.com/search/label/Rhino', 'title': '_Rhino', 'position': 2}, 'link3': {'href': 'https://sandelions.blogspot.com/search/label/Archicad', 'title': '_ArchiCAD', 'position': 3}, 'link4': {'href': 'https://sandelions.blogspot.com/search/label/Grasshopper', 'title': '_Grasshopper', 'position': 4}, 'link5': {'href': 'http://', 'title': 'PRACTICE', 'position': 5}, 'link6': {'href': 'http://', 'title': 'SERVICES', 'position': 6}, 'link7': {'href': 'http://', 'title': 'CONTECT', 'position': 7}, '8912474671506411338': {'href': 'https://sandelions.blogspot.com/p/index.html', 'title': 'Index', 'position': 8}}]]></b:widget-setting>
+            <b:widget-setting name='homeTitle'>Home</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
 					<div class='widget-content'>
@@ -4270,11 +4296,15 @@ if(typeof(georgialou_class) != 'undefined' && georgialou_class !== null) {
         </b:widget>
         <b:widget id='LinkList101' locked='false' title='Topbar Social Icons' type='LinkList' version='1'>
           <b:widget-settings>
+            <b:widget-setting name='link-3'>https://www.youtube.com/channel/UCzYAjzoBtos_FTcF_mLMxWw</b:widget-setting>
             <b:widget-setting name='sorting'>NONE</b:widget-setting>
-            <b:widget-setting name='text-1'>facebook</b:widget-setting>
-            <b:widget-setting name='link-1'>https://www.facebook.com/</b:widget-setting>
+            <b:widget-setting name='text-1'>trello</b:widget-setting>
+            <b:widget-setting name='link-1'>https://trello.com/user11032009/boards</b:widget-setting>
             <b:widget-setting name='text-0'>Github</b:widget-setting>
+            <b:widget-setting name='link-2'>https://twitter.com/cetsmaudooy</b:widget-setting>
+            <b:widget-setting name='text-3'>Youtube</b:widget-setting>
             <b:widget-setting name='link-0'>https://github.com/Cetsmaudooy</b:widget-setting>
+            <b:widget-setting name='text-2'>twitter</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
 			<b:if cond='data:title'><h2><data:title/></h2></b:if>
@@ -4403,7 +4433,7 @@ if(typeof(georgialou_class) != 'undefined' && georgialou_class !== null) {
     <b:else/>
       <!--Show the image only-->
       <div id='header-inner'>
-        <a expr:href='data:blog.homepageUrl' style='display: block'>
+        <a expr:href='data:blog.homepageUrl + &quot;/search/label/&quot;' style='display: block'>
           <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' expr:width='data:width' nopin='nopin' style='display: block'/>
         </a>
         <!--Show the description-->
@@ -6600,11 +6630,15 @@ head.appendChild(script);
 </b:section-contents><b:section-contents id='footer-1'>
   <b:widget id='LinkList104' locked='false' title='Floating Social Icons' type='LinkList' version='1'>
     <b:widget-settings>
+      <b:widget-setting name='link-3'>https://www.youtube.com/channel/UCzYAjzoBtos_FTcF_mLMxWw</b:widget-setting>
       <b:widget-setting name='sorting'>NONE</b:widget-setting>
-      <b:widget-setting name='text-1'>facebook</b:widget-setting>
-      <b:widget-setting name='link-1'>https://www.facebook.com/</b:widget-setting>
+      <b:widget-setting name='text-1'>trello</b:widget-setting>
+      <b:widget-setting name='link-1'>https://trello.com/user11032009/boards</b:widget-setting>
       <b:widget-setting name='text-0'>Github</b:widget-setting>
+      <b:widget-setting name='link-2'>https://twitter.com/cetsmaudooy</b:widget-setting>
+      <b:widget-setting name='text-3'>Youtube</b:widget-setting>
       <b:widget-setting name='link-0'>https://github.com/Cetsmaudooy</b:widget-setting>
+      <b:widget-setting name='text-2'>twitter</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
 <b:if cond='data:title'><h2><data:title/></h2></b:if>
