@@ -4433,7 +4433,7 @@ if(typeof(georgialou_class) != 'undefined' && georgialou_class !== null) {
     <b:else/>
       <!--Show the image only-->
       <div id='header-inner'>
-        <a expr:href='data:blog.homepageUrl + &quot;/search/label/&quot;' style='display: block'>
+        <a expr:href='data:blog.homepageUrl + &quot;//&quot;' style='display: block'>
           <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' expr:width='data:width' nopin='nopin' style='display: block'/>
         </a>
         <!--Show the description-->
@@ -6073,6 +6073,39 @@ resolution:&#39;low_resolution&#39;,target:&#39;pipdigemZeplin_325398838&#39;,te
       </div>
       <div class='clr'/>
       </b:includable>
+      </b:widget>
+      <b:widget id='HTML7' locked='false' title='highlight.js' type='HTML'>
+        <b:widget-settings>
+          <b:widget-setting name='content'>&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/showdown/1.6.4/showdown.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+var converter = new showdown.Converter();
+var posts = document.querySelectorAll(&quot;.post-body&quot;);
+Array.prototype.forEach.call(posts, function(el, i){
+  if(el.innerHTML.indexOf(&quot;markdown&quot;) &lt;= 1){
+    el.innerHTML = converter.makeHtml(el.innerHTML.replace(&quot;markdown&quot;,&quot;&quot;));
+  }
+});
+
+var pres = document.querySelectorAll(&quot;pre&quot;);
+Array.prototype.forEach.call(pres, function(el, i){
+  el.classList.add(&quot;prettyprint&quot;);
+});
+&lt;/script&gt;
+&lt;script src=&quot;https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js&quot;&gt;&lt;/script&gt;
+
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jmblog.github.io/color-themes-for-google-code-prettify/themes/atelier-cave-light.min.css&quot; /&gt;</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
       </b:widget>
     </b:section>
   </div>
