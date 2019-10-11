@@ -1691,7 +1691,7 @@ opacity: .8;
 }
 .georgialou_grids_img_wrapper {
 	position: relative;
-	padding-right: 10px;
+	padding-right: 0px;
 }
 .georgialou_grids_img {
 	display: block;
@@ -1705,6 +1705,7 @@ opacity: .8;
 	transition: all 0.25s ease-out;
 }
 .georgialou_grids_img:hover {
+    transform: scale(1.05);
 	opacity: .8;
 }
 .georgialou_grid_title h2 {
@@ -4232,7 +4233,7 @@ if(typeof(georgialou_class) != 'undefined' && georgialou_class !== null) {
       <b:section class='tabs' id='crosscol' showaddelement='yes'>
         <b:widget id='PageList1' locked='true' mobile='yes' title='Pages' type='PageList' version='1'>
           <b:widget-settings>
-            <b:widget-setting name='pageListJson'><![CDATA[{'link0': {'href': 'https://sandelions.blogspot.com/search/label/', 'title': 'Blog', 'position': 0}, 'link1': {'href': 'http://', 'title': 'WORKS', 'position': 1}, 'link2': {'href': 'https://sandelions.blogspot.com/search/label/Rhino', 'title': '_Rhino', 'position': 2}, 'link3': {'href': 'https://sandelions.blogspot.com/search/label/Archicad', 'title': '_ArchiCAD', 'position': 3}, 'link4': {'href': 'https://sandelions.blogspot.com/search/label/Grasshopper', 'title': '_Grasshopper', 'position': 4}, 'link5': {'href': 'http://', 'title': 'PRACTICE', 'position': 5}, 'link6': {'href': 'http://', 'title': 'SERVICES', 'position': 6}, 'link7': {'href': 'http://', 'title': 'CONTECT', 'position': 7}, '8912474671506411338': {'href': 'https://sandelions.blogspot.com/p/index.html', 'title': 'Index', 'position': 8}}]]></b:widget-setting>
+            <b:widget-setting name='pageListJson'><![CDATA[{'link0': {'href': 'https://sandelions.blogspot.com/search/label/', 'title': 'Blog', 'position': 0}, 'link1': {'href': 'http://', 'title': 'WORKS', 'position': 1}, 'link2': {'href': 'https://sandelions.blogspot.com/search/label/Rhino', 'title': '_Rhino', 'position': 2}, 'link3': {'href': 'https://sandelions.blogspot.com/search/label/Archicad', 'title': '_ArchiCAD', 'position': 3}, 'link4': {'href': 'https://sandelions.blogspot.com/search/label/Grasshopper', 'title': '_Grasshopper', 'position': 4}, '397872852656662023': {'href': 'https://sandelions.blogspot.com/p/practice.html', 'title': 'PRACTICE', 'position': 5}, '439333393523073154': {'href': 'https://sandelions.blogspot.com/p/services.html', 'title': 'SERVICES', 'position': 6}, '9003175414736592956': {'href': 'https://sandelions.blogspot.com/p/contect.html', 'title': 'CONTECT', 'position': 7}}]]></b:widget-setting>
             <b:widget-setting name='homeTitle'>Home</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
